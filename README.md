@@ -19,15 +19,8 @@ pip install -r requirements.txt
 3. Create **OAuth 2.0 credentials** (Desktop App type)
 4. Download `credentials.json` → place it in this folder
 
-### 3. Set your Anthropic API key
 
-Either set the environment variable:
-```bash
-export ANTHROPIC_API_KEY=sk-ant-...
-```
-Or paste it into the sidebar when running the app.
-
-### 4. Run
+### 3. Run
 ```bash
 streamlit run app.py
 ```
